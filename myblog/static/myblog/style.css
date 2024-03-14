@@ -1,0 +1,26 @@
+body {
+    background-image: url('bg.jpg');
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.navbar-logo-text {
+    font-family: 'Syne Mono';
+    color:chartreuse;
+}
+
+.menu-options {
+    font-family: 'Syne Mono', monospace;
+    font-size: larger;
+}
+
+.header-text {
+    font-family: 'Syne Mono', monospace;
+}
+
+.general-text {
+    font-family: 'Mate', serif;
+}

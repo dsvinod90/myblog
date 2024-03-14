@@ -1,0 +1,16 @@
+<nav class="navbar bg-body-tertiary navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark" style="display: flex;">
+    <div class="container-fluid">
+      <h3 class="navbar-logo-text">{{context.category}}@vsd:~$</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="width: auto; justify-content: space-evenly">
+        <div class="navbar-nav menu-options" style="width: 70%; justify-content: space-evenly">
+          <a id="home" class="nav-link active" aria-current="page" href="/">home</a>
+          {% comment %} <a id="blog" class="nav-link" href="#">blog</a> {% endcomment %}
+          <a id="projects" class="nav-link" href="/projects">projects</a>
+        </div>
+        <div class="today menu-options" style="color:chartreuse;"></div>
+      </div>
+    </div>
+  </nav>

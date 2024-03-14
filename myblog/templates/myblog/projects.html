@@ -1,0 +1,202 @@
+{% include 'myblog/header.html' %}
+<h2 class="header-text text-center"> Projects </h2>
+<div class="row row-cols-1 row-cols-md-3 g-3 general-text">
+    <div class="col">
+        <div class="card h-100" style="box-shadow: 5px 5px 5px gray;">
+            <div class="card-body">
+                <div style="display: flex; flex-direction: column; justify-content: center">
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                        <h5 class="card-title text-primary">Ory/keto</h5>
+                        <button type="button" class="btn btn-dark">
+                            <a href="https://github.com/dsvinod90/keto" target="_blank" style="text-decoration: none; color: white">Source</a>
+                        </button>
+                    </div>
+                    <h6 class="card-title text-secondary">PostgreSQL, Redis, GoLang, Docker</h6>
+                </div>
+                <p class="card-text">
+                    <ul>
+                        <li>
+                            Worked in a team of 3 as part of a project for the class Distributed Systems at RIT while pursuing MS in CS.
+                        </li>
+                        <li>
+                            Implemented a hybrid logical clock (HLC) for synchronization in a distributed architecture, utilizing PostgreSQL, Redis, GoLang and Docker to ensure precise and efficient timekeeping across the system.
+                        </li>
+                        <li>
+                            Modified the API responses to accommodate the newly developed HLC timestamps and test extensively with Postman.
+                        </li>
+                        <li>
+                            The implementation has not yet been merged as of now.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100" style="box-shadow: 5px 5px 5px gray;">
+            <div class="card-body">
+                <div style="display: flex; flex-direction: column; justify-content: center">
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                        <h5 class="card-title text-primary">Implementing an RDT Protocol</h5>
+                        <button type="button" class="btn btn-dark">
+                            <a href="https://github.com/dsvinod90/RDTProtocol" target="_blank" style="text-decoration: none; color: white">Source</a>
+                        </button>
+                    </div>
+                    <h6 class="card-title text-secondary">Java, Socket Programming, Multi-threading, Make, Networking, TCP/IP, UDP</h6>
+                </div>
+                <p class="card-text">
+                    <ul>
+                        <li>
+                            Individual project for the class Foundations of Computer Networks taken at RIT while pursuing MS in CS.
+                        </li>
+                        <li>
+                            Conceived and developed a protocol that merges the reliability of TCP with the theoretical speed advantages of UDP, resulting in a highly efficient and reliable Transport Layer Protocol.
+                        </li>
+                        <li>
+                            Conducted network simulations using multicast IP to validate and refine the protocol, and employed Docker for iterative testing and continuous development.
+                        </li>
+                        <li>
+                            Pragmatically, the new network was not as good as TCP but the project helped me gain a wealth of knowledge about the subject.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100" style="box-shadow: 5px 5px 5px gray;">
+            <div class="card-body">
+                <div style="display: flex; flex-direction: column; justify-content: center">
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                        <h5 class="card-title text-primary">Exploring Spotify Playlist Dataset</h5>
+                        <button type="button" class="btn btn-dark">
+                            <a href="https://github.com/dsvinod90/Project_Phase_2" target="_blank" style="text-decoration: none; color: white">Source</a>
+                        </button>
+                    </div>
+                    <h6 class="card-title text-secondary">Big Data, Python, PostgreSQL, MongoDB</h6>
+                </div>
+                <p class="card-text">
+                    <ul>
+                        <li>
+                            Worked on this project for the class Introduction to Big Data taken at RIT while pursuing MS in CS.
+                        </li>
+                        <li>
+                            Utilized a Spotify playlist dataset from Kaggle, comprising 64 million records of data.
+                        </li>
+                        <li>
+                            Designed a robust database schema and efficiently loaded 65 million records from CSV files into PostgreSQL in less than 45 minutes.
+                        </li>
+                        <li>
+                            Created collections and documents to represent the same dataset in MongoDB, achieving a complete data load within 1 hour.
+                        </li>
+                        <li>
+                            Formulated efficient and intriguing queries for both PostgreSQL and MongoDB, enabling a comparison of query execution times and data retrieval ease between SQL and NoSQL databases.
+                        </li>
+                        <li>
+                            Employed itemset mining and data cleaning techniques to derive valuable insights and interesting observations related to user playlists.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-3 general-text">
+    <div class="col">
+        <div class="card h-100" style="box-shadow: 5px 5px 5px gray;">
+            <div class="card-body">
+                <div style="display: flex; flex-direction: column; justify-content: center">
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                        <h5 class="card-title text-primary">API based PostgreSQL Partitioning</h5>
+                        <button type="button" class="btn btn-dark">
+                            <a href="https://github.com/dsvinod90/pypartition" target="_blank" style="text-decoration: none; color: white">Source</a>
+                        </button>
+                    </div>
+                    <h6 class="card-title text-secondary">PostgreSQL, Python, Flask API, Docker, Postman</h6>
+                </div>
+                <p class="card-text">
+                    <ul>
+                        <li>
+                            Conceived the idea and developed the concept of creating partition tables in PostgreSQL
+                            using an API based approach using Python and Flask API.                                 
+                        </li>
+                        <li>
+                            Implemented Range based partitioning, Hash based partitioning and List based partitioning.
+                        </li>
+                        <li>
+                            Next Steps 
+                            <ul>
+                                <li>
+                                    Implement support for ALTER TABLE and De-Partitioning.
+                                </li>
+                                <li>
+                                    Provide support for API based sharding for PostgreSQL database.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100" style="box-shadow: 5px 5px 5px gray;">
+            <div class="card-body">
+                <div style="display: flex; flex-direction: column; justify-content: center">
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                        <h5 class="card-title text-primary">Student Database with DynamoDB</h5>
+                        <button type="button" class="btn btn-dark">
+                            <a href="https://github.com/dsvinod90/studentdb" target="_blank" style="text-decoration: none; color: white">Source</a>
+                        </button>
+                    </div>
+                    <h6 class="card-title text-secondary">DynamoDB, Express.JS, Pug, Docker</h6>
+                </div>
+                <p class="card-text">
+                    <ul>
+                        <li>
+                            Created a student database and enrollment system using Amazon's DynamoDB.
+                        </li>
+                        <li>
+                            Provided a CRUD based full stack application with Express.js and Pug.
+                        </li>
+                        <li>
+                            Wrote a whitepaper discussing the project and showcasing the advantages of using 
+                            DynaboDB for the project.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100" style="box-shadow: 5px 5px 5px gray;">
+            <div class="card-body">
+                <div style="display: flex; flex-direction: column; justify-content: center">
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+                        <h5 class="card-title text-primary">Enhancing H2 Database</h5>
+                        <button type="button" class="btn btn-dark">
+                            <a href="https://github.com/dsvinod90/h2database" target="_blank" style="text-decoration: none; color: white">Source</a>
+                        </button>
+                    </div>
+                    <h6 class="card-title text-secondary">H2 Database, Java</h6>
+                </div>
+                <p class="card-text">
+                    <ul>
+                        <li>
+                            Analyzed H2 database's Query Processing, Transaction Management and Storage layer.
+                        </li>
+                        <li>
+                            Added a new feature to add an IPv4 and IPv6 datatype to the forked database.
+                        </li>
+                        <li>
+                            Added a new aggregation method to calculate geometric mean for a given set of values to 
+                            the forked database.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'myblog/footer.html' %}
